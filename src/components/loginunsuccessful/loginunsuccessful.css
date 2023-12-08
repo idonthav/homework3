@@ -1,0 +1,36 @@
+.container-unsuccessful{
+    width: 650px;
+    height: 250px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    -webkit-backdrop-filter: blur(30px);
+    backdrop-filter: blur(30px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    color: #fff;
+    border-radius: 10px;
+    padding: 30px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.container-unsuccessful h1{
+    font-size: 30px;
+    text-align: left;
+}
+.container-unsuccessful p{
+    font-size: 20px;
+    text-align: right;
+}
+.container-unsuccessful button{
+    width: 100%;
+    height: 45px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 700;
+}
